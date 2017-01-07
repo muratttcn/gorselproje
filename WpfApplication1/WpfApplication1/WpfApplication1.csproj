@@ -67,6 +67,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="kitapkaydet.xaml.cs">
+      <DependentUpon>kitapkaydet.xaml</DependentUpon>
+    </Compile>
     <Compile Include="uyekayit.xaml.cs">
       <DependentUpon>uyekayit.xaml</DependentUpon>
     </Compile>
@@ -74,6 +77,10 @@
       <DependentUpon>uyelistesi.xaml</DependentUpon>
     </Compile>
     <Page Include="anasayfa.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="kitapkaydet.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

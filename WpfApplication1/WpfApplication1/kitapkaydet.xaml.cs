@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace WpfApplication1
 {
     /// <summary>
-    /// Interaction logic for uyelistesi.xaml
+    /// Interaction logic for kitapkaydet.xaml
     /// </summary>
-    public partial class uyelistesi : Window
+    public partial class kitapkaydet : Window
     {
-        public uyelistesi()
+        public kitapkaydet()
         {
             InitializeComponent();
         }
@@ -30,6 +30,5 @@ namespace WpfApplication1
             anasayfa.Show();
             this.Hide();
         }
-
     }
 }

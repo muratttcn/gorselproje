@@ -21,3 +21,5 @@ D:\xampp-portable-win32-5.6.24-1-VC11\xampp\htdocs\görsel\gorselproje\WpfApplic
 D:\xampp-portable-win32-5.6.24-1-VC11\xampp\htdocs\görsel\gorselproje\WpfApplication1\WpfApplication1\obj\Debug\uyekayit.baml
 D:\xampp-portable-win32-5.6.24-1-VC11\xampp\htdocs\görsel\gorselproje\WpfApplication1\WpfApplication1\obj\Debug\uyelistesi.g.cs
 D:\xampp-portable-win32-5.6.24-1-VC11\xampp\htdocs\görsel\gorselproje\WpfApplication1\WpfApplication1\obj\Debug\uyelistesi.baml
+D:\xampp-portable-win32-5.6.24-1-VC11\xampp\htdocs\görsel\gorselproje\WpfApplication1\WpfApplication1\obj\Debug\kitapkaydet.g.cs
+D:\xampp-portable-win32-5.6.24-1-VC11\xampp\htdocs\görsel\gorselproje\WpfApplication1\WpfApplication1\obj\Debug\kitapkaydet.baml

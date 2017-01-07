@@ -46,8 +46,15 @@ namespace WpfApplication1
 
         private void btn3_Click(object sender, RoutedEventArgs e)
         {
-            uyelistesi a = new uyelistesi();
-            a.Show();
+            uyelistesi b = new uyelistesi();
+            b.Show();
+            this.Hide();
+        }
+
+        private void btn4_Click(object sender, RoutedEventArgs e)
+        {
+            kitapkaydet c = new kitapkaydet();
+            c.Show();
             this.Hide();
         }
     }
