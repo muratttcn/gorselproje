@@ -30,13 +30,13 @@
 
                 </Grid.RowDefinitions>
                 <Label Grid.Column="0" Grid.Row="0" VerticalAlignment="Center" FontFamily="Trebuchet MS" 
-        FontWeight="Bold" FontSize="18" Foreground="#0066cc">
+        FontWeight="Bold" FontSize="18" Foreground="White">
                     Üye işlemleri
                 </Label>
                 <Button x:Name="btn2" Content="Üye İşlemleri" Grid.Row="1" Width="150" Background="White" Margin="0,0,142,0" FontFamily="SimSun" Click="btn2_Click"/>
-                <Button x:Name="btn3" Content="Üye Listesi" Grid.Row="2" Width="150" Background="White" Margin="0,0,142,0" FontFamily="SimSun"/>
+                <Button x:Name="btn3" Content="Üye Listesi" Grid.Row="2" Width="150" Background="White" Margin="0,0,142,0" FontFamily="SimSun" Click="btn3_Click"/>
                 <Label Grid.Column="0" VerticalAlignment="Center" FontFamily="Trebuchet MS" 
-        FontWeight="Bold" FontSize="18" Grid.Row="3" Foreground="#0066cc">
+        FontWeight="Bold" FontSize="18" Grid.Row="3" Foreground="White">
                     Kitap işlemleri
                 </Label>
                 <Button x:Name="btn4" Content="Kitap İşlemleri" Grid.Row="4" Width="150" Background="White" Margin="0,0,142,0" FontFamily="SimSun"/>

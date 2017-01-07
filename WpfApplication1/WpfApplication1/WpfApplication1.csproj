@@ -70,6 +70,9 @@
     <Compile Include="uyekayit.xaml.cs">
       <DependentUpon>uyekayit.xaml</DependentUpon>
     </Compile>
+    <Compile Include="uyelistesi.xaml.cs">
+      <DependentUpon>uyelistesi.xaml</DependentUpon>
+    </Compile>
     <Page Include="anasayfa.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -90,6 +93,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="uyekayit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="uyelistesi.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

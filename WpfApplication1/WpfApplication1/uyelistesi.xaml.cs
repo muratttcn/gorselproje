@@ -15,21 +15,13 @@ using System.Windows.Shapes;
 namespace WpfApplication1
 {
     /// <summary>
-    /// Interaction logic for uyekayit.xaml
+    /// Interaction logic for uyelistesi.xaml
     /// </summary>
-    public partial class uyekayit : Window
+    public partial class uyelistesi : Window
     {
-        public uyekayit()
+        public uyelistesi()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            anasayfa anasayfa = new anasayfa();
-            anasayfa.Show();
-            this.Hide();
-
         }
     }
 }

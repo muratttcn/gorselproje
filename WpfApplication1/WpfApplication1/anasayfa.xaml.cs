@@ -43,5 +43,12 @@ namespace WpfApplication1
             a.Show();
             this.Hide();
         }
+
+        private void btn3_Click(object sender, RoutedEventArgs e)
+        {
+            uyelistesi a = new uyelistesi();
+            a.Show();
+            this.Hide();
+        }
     }
 }
