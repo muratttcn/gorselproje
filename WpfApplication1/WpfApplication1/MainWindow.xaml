@@ -13,15 +13,29 @@
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
 
+
         </Grid.RowDefinitions>
-        <Image x:Name="resimmm_png" Source="resimmm.png" Stretch="Fill" Margin="31,0,60,0" Grid.RowSpan="3"/>
-        <Label Name="lbl" Grid.Row="0" Grid.Column="0" Padding="40" FontSize="15" ForceCursor="True">KULLANICI ADI</Label>
-        <Label Name="lb2" Grid.Row="1" Grid.Column="0" Padding="40" FontSize="15">Şifre</Label>
-        <TextBox Name="txt1" Grid.Row="0" Grid.Column="0" Width="250" Height="40" Margin="146,37,121,29.667" Background="Snow"></TextBox>
-        <TextBox Name="txt2" Grid.Row="1" Grid.Column="0" Width="250" Height="40" Margin="146,29.333,121,37.333" Background="Snow"></TextBox>
-        <Button Name="btn1" Grid.Row="2" Grid.Column="0" Background="White" Width="150" Height="30" Margin="182,38.667,185,38.333">GİRİŞ</Button>
-
-       
-
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#3f98f1"/>
+                <GradientStop Color="#003c7b" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Image x:Name="resimmm_png" Source="resimmm.png" Stretch="Fill" Margin="66,0,29,1" Grid.RowSpan="3"/>
+        <Label Name="Ld" VerticalAlignment="Center" FontFamily="Trebuchet MS" 
+        FontWeight="Bold" FontSize="25" Foreground="Indigo" Margin="102,34,-168,36" Height="37">
+            KÜTÜPHANE OTOMASYONU
+        </Label>
+        <TextBox Name="txt1" HorizontalAlignment="Left" Height="20" Margin="222,44,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <PasswordBox Name="sifre" PasswordChar="*" HorizontalAlignment="Left" Height="19" Margin="222,65,0,0" Grid.Row="2" VerticalAlignment="Top" Width="120"/>
+        <Label Grid.Row="2" VerticalAlignment="Center" FontFamily="Trebuchet MS" 
+        FontWeight="Bold" FontSize="15" Foreground="#0066cc" Margin="102,46,300,34">
+            Kullanıcı Adı
+        </Label>
+        <Label VerticalAlignment="Center" FontFamily="Trebuchet MS" 
+        FontWeight="Bold" FontSize="15" Foreground="#0066cc" Margin="137,65,319,15" Grid.Row="2">
+            Şifre
+        </Label>
+        <Button Name="btn1" Grid.Row="2" Grid.Column="0" Background="BlanchedAlmond" Margin="372,51,85,23" Click="btn1_Click_1">GİRİŞ</Button>
     </Grid>
 </Window>

@@ -7,6 +7,47 @@
         mc:Ignorable="d"
         Title="anasayfa" Height="300" Width="300">
     <Grid>
-        
+        <Grid x:Name="LayoutRoot">
+          
+            <Grid.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#3f98f1"/>
+                    <GradientStop Color="#003c7b" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Grid>
+                <Grid.RowDefinitions>
+
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+
+                </Grid.RowDefinitions>
+                <Label Grid.Column="0" Grid.Row="0" VerticalAlignment="Center" FontFamily="Trebuchet MS" 
+        FontWeight="Bold" FontSize="18" Foreground="#0066cc">
+                    Üye işlemleri
+                </Label>
+                <Button x:Name="btn2" Content="Üye İşlemleri" Grid.Row="1" Width="150" Background="White" Margin="0,0,142,0" FontFamily="SimSun" Click="btn2_Click"/>
+                <Button x:Name="btn3" Content="Üye Listesi" Grid.Row="2" Width="150" Background="White" Margin="0,0,142,0" FontFamily="SimSun"/>
+                <Label Grid.Column="0" VerticalAlignment="Center" FontFamily="Trebuchet MS" 
+        FontWeight="Bold" FontSize="18" Grid.Row="3" Foreground="#0066cc">
+                    Kitap işlemleri
+                </Label>
+                <Button x:Name="btn4" Content="Kitap İşlemleri" Grid.Row="4" Width="150" Background="White" Margin="0,0,142,0" FontFamily="SimSun"/>
+                <Button x:Name="btn5" Content="Kitap Kiralama" Grid.Row="5" Width="150" Background="White" Margin="0,0,142,0" FontFamily="SimSun"/>
+                <Button x:Name="btn6" Content="Kitap Teslim Alma" Grid.Row="6" Width="150" Background="White" Margin="0,0,142,0" FontFamily="SimSun"/>
+                <Button x:Name="btn7" Content="Kitap Listesi" Grid.Row="7" Width="150" Background="White" Margin="0,0,142,0" FontFamily="SimSun"/>
+                <Button x:Name="btn8" Content="Programı Kapat" Height="30" Background="White" Margin="187,0,0,0" Grid.Row="8" Click="btn8_Click_1" VerticalAlignment="Top"/>
+
+            </Grid>
+
+
+        </Grid>
     </Grid>
 </Window>

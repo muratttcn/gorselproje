@@ -23,5 +23,25 @@ namespace WpfApplication1
         {
             InitializeComponent();
         }
+
+
+        private void btn8_Click_1(object sender, RoutedEventArgs e)
+        {
+
+
+            MessageBox.Show("Çıkmak İstiyor Musunuz?", "Çıkış");
+
+            {
+                this.Hide();
+            }
+
+        }
+
+        private void btn2_Click(object sender, RoutedEventArgs e)
+        {
+            uyekayit a = new uyekayit();
+            a.Show();
+            this.Hide();
+        }
     }
 }

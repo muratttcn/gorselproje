@@ -28,32 +28,24 @@ namespace WpfApplication1
             InitializeComponent();
         }
 
-        private void btn1_Click(object sender, RoutedEventArgs e)
+
+        private void btn1_Click_1(object sender, RoutedEventArgs e)
         {
-            MySqlConnection baglanti = new MySqlConnection("localhost;Port=3306;Database=kullanıcıgirisi");
-
+            if (txt1.Text == "sa" && sifre.Password == "123")
             {
-                if (txt1.Text == "sa" && txt2.Text == "123")
-                {
 
 
-
-
-                    MessageBox.Show("Giriş Başarılı");
-                    anasayfa a = new anasayfa();
-                    a.Show();
-                    this.Hide();
-                }
-                else
-                {
-                    MessageBox.Show("Giriş Başarısız");
-                }
-
-
+                MessageBox.Show("Giriş Başarılı");
+                anasayfa a = new anasayfa();
+                a.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Giriş Başarısız");
             }
 
         }
-    
-    
+
     }
 }
