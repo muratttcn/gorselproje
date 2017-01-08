@@ -29,11 +29,11 @@
         <TextBox Name="txt1" HorizontalAlignment="Left" Height="20" Margin="222,44,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <PasswordBox Name="sifre" PasswordChar="*" HorizontalAlignment="Left" Height="19" Margin="222,65,0,0" Grid.Row="2" VerticalAlignment="Top" Width="120"/>
         <Label Grid.Row="2" VerticalAlignment="Center" FontFamily="Trebuchet MS" 
-        FontWeight="Bold" FontSize="15" Foreground="black" Margin="102,46,300,34">
+        FontWeight="Bold" FontSize="15" Foreground="AntiqueWhite" Margin="102,46,300,34">
             Kullanıcı Adı
         </Label>
         <Label VerticalAlignment="Center" FontFamily="Trebuchet MS" 
-        FontWeight="Bold" FontSize="15" Foreground="Black" Margin="137,65,319,15" Grid.Row="2">
+        FontWeight="Bold" FontSize="15" Foreground="AntiqueWhite" Margin="137,65,319,15" Grid.Row="2">
             Şifre
         </Label>
         <Button Name="btn1" Grid.Row="2" Grid.Column="0" Background="BlanchedAlmond" Margin="372,51,85,23" Click="btn1_Click_1">GİRİŞ</Button>

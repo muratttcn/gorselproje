@@ -70,6 +70,15 @@
     <Compile Include="kitapkaydet.xaml.cs">
       <DependentUpon>kitapkaydet.xaml</DependentUpon>
     </Compile>
+    <Compile Include="kitapkirala.xaml.cs">
+      <DependentUpon>kitapkirala.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="kitaplistesi.xaml.cs">
+      <DependentUpon>kitaplistesi.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="kitapteslimalma.xaml.cs">
+      <DependentUpon>kitapteslimalma.xaml</DependentUpon>
+    </Compile>
     <Compile Include="uyekayit.xaml.cs">
       <DependentUpon>uyekayit.xaml</DependentUpon>
     </Compile>
@@ -81,6 +90,18 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="kitapkaydet.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="kitapkirala.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="kitaplistesi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="kitapteslimalma.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

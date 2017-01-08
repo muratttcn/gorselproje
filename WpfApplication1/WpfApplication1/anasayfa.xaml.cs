@@ -57,5 +57,26 @@ namespace WpfApplication1
             c.Show();
             this.Hide();
         }
+
+        private void btn5_Click(object sender, RoutedEventArgs e)
+        {
+            kitapkirala d= new kitapkirala();
+            d.Show();
+            this.Hide();
+        }
+
+        private void btn6_Click(object sender, RoutedEventArgs e)
+        {
+            kitapteslimalma f = new kitapteslimalma();
+            f.Show();
+            this.Hide();
+        }
+
+        private void btn7_Click(object sender, RoutedEventArgs e)
+        {
+            kitaplistesi g = new kitaplistesi();
+            g.Show();
+            this.Hide();
+        }
     }
 }

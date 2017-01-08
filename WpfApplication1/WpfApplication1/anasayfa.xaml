@@ -40,9 +40,9 @@
                     Kitap işlemleri
                 </Label>
                 <Button x:Name="btn4" Content="Kitap İşlemleri" Grid.Row="4" Width="150" Background="White" Margin="0,0,142,0" FontFamily="SimSun" Click="btn4_Click"/>
-                <Button x:Name="btn5" Content="Kitap Kiralama" Grid.Row="5" Width="150" Background="White" Margin="0,0,142,0" FontFamily="SimSun"/>
-                <Button x:Name="btn6" Content="Kitap Teslim Alma" Grid.Row="6" Width="150" Background="White" Margin="0,0,142,0" FontFamily="SimSun"/>
-                <Button x:Name="btn7" Content="Kitap Listesi" Grid.Row="7" Width="150" Background="White" Margin="0,0,142,0" FontFamily="SimSun"/>
+                <Button x:Name="btn5" Content="Kitap Kiralama" Grid.Row="5" Width="150" Background="White" Margin="0,0,142,0" FontFamily="SimSun" Click="btn5_Click"/>
+                <Button x:Name="btn6" Content="Kitap Teslim Alma" Grid.Row="6" Width="150" Background="White" Margin="0,0,142,0" FontFamily="SimSun" Click="btn6_Click"/>
+                <Button x:Name="btn7" Content="Kitap Listesi" Grid.Row="7" Width="150" Background="White" Margin="0,0,142,0" FontFamily="SimSun" Click="btn7_Click"/>
                 <Button x:Name="btn8" Content="Programı Kapat" Height="30" Background="White" Margin="187,0,0,0" Grid.Row="8" Click="btn8_Click_1" VerticalAlignment="Top"/>
 
             </Grid>
