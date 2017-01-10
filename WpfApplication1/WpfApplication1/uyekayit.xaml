@@ -34,27 +34,27 @@
         FontWeight="Bold" FontSize="14" Foreground="Black">
             Tc Kimlik No
         </Label>
-        <TextBox Grid.Column="0" Grid.Row="1" Height="auto" Margin="103,0,31,0"/>
+        <TextBox Name="txt1" Grid.Column="0" Grid.Row="1" Height="auto" Margin="103,0,31,0"/>
         <Label Grid.Column="0" Grid.Row="2" VerticalAlignment="Center" FontFamily="Trebuchet MS" 
         FontWeight="Bold" FontSize="14" Foreground="Black">
             Ad
         </Label>
-        <TextBox Grid.Column="0" Grid.Row="2" Height="auto" Margin="103,0,31,0"/>
+        <TextBox Name="txt2" Grid.Column="0" Grid.Row="2" Height="auto" Margin="103,0,31,0"/>
         <Label Grid.Column="0" Grid.Row="3" VerticalAlignment="Center" FontFamily="Trebuchet MS" 
         FontWeight="Bold" FontSize="14" Foreground="Black">
             Soyad
         </Label>
-        <TextBox Grid.Column="0" Grid.Row="3" Height="auto" Margin="103,0,31,0"/>
+        <TextBox Name="txt3" Grid.Column="0" Grid.Row="3" Height="auto" Margin="103,0,31,0"/>
         <Label Grid.Column="0" Grid.Row="4" VerticalAlignment="Center" FontFamily="Trebuchet MS" 
         FontWeight="Bold" FontSize="14" Foreground="Black">
             Cep Telefon
         </Label>
-        <TextBox Grid.Column="0" Grid.Row="4" Height="auto" Margin="103,0,31,0"/>
+        <TextBox Name="txt4" Grid.Column="0" Grid.Row="4" Height="auto" Margin="103,0,31,0"/>
         <Label Grid.Column="0" Grid.Row="5" VerticalAlignment="Center" FontFamily="Trebuchet MS" 
         FontWeight="Bold" FontSize="14" Foreground="Black">
             E-Mail
         </Label>
-        <TextBox Grid.Column="0" Grid.Row="5" Height="auto" Margin="103,0,31,0"/>
+        <TextBox Name="txt5" Grid.Column="0" Grid.Row="5" Height="auto" Margin="103,0,31,0"/>
         <Label Grid.Column="0" Grid.Row="6" VerticalAlignment="Center" FontFamily="Trebuchet MS" 
         FontWeight="Bold" FontSize="14" Foreground="black">
             Cinsiyet
@@ -82,8 +82,8 @@
         FontWeight="Bold" FontSize="14" Foreground="Black" Margin="0,1,232,0" Height="29">
             Adres
         </Label>
-        <TextBox Grid.Column="0" Grid.Row="7" Height="auto" Margin="103,0,31,0"/>
-        <Button Grid.Column="0" Grid.Row="8" Margin="212,0,0,0" Background="Beige">Save</Button>
-
+        <TextBox Name="txt6" Grid.Column="0" Grid.Row="7" Height="auto" Margin="103,0,31,0"/>
+        <Button Grid.Column="0" Grid.Row="8" Margin="212,0,0,0" Background="Beige" Click="Button_Click_1">Save</Button>
+        <DataGrid Grid.Row="8" HorizontalAlignment="Left" Width="172"></DataGrid>
     </Grid>
 </Window>
