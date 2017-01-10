@@ -29,3 +29,6 @@ D:\xampp-portable-win32-5.6.24-1-VC11\xampp\htdocs\görsel\gorselproje\WpfApplic
 D:\xampp-portable-win32-5.6.24-1-VC11\xampp\htdocs\görsel\gorselproje\WpfApplication1\WpfApplication1\obj\Debug\kitapteslimalma.baml
 D:\xampp-portable-win32-5.6.24-1-VC11\xampp\htdocs\görsel\gorselproje\WpfApplication1\WpfApplication1\obj\Debug\kitaplistesi.g.cs
 D:\xampp-portable-win32-5.6.24-1-VC11\xampp\htdocs\görsel\gorselproje\WpfApplication1\WpfApplication1\obj\Debug\kitaplistesi.baml
+D:\xampp-portable-win32-5.6.24-1-VC11\xampp\htdocs\görsel\gorselproje\WpfApplication1\WpfApplication1\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+D:\xampp-portable-win32-5.6.24-1-VC11\xampp\htdocs\görsel\gorselproje\WpfApplication1\WpfApplication1\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+D:\xampp-portable-win32-5.6.24-1-VC11\xampp\htdocs\görsel\gorselproje\WpfApplication1\WpfApplication1\bin\Debug\Microsoft.SqlServer.Smo.dll

@@ -58,7 +58,7 @@
         FontWeight="Bold" FontSize="15"  Grid.Row="1" Foreground="black" Margin="-5,97,230,7" Height="31">
             SOYADI
         </Label>
-        <Button Content="GÜNCELLE" Margin="179,98,10,7" Background="White" Grid.Row="1"/>
+        <Button Content="Göster" Margin="179,98,10,7" Background="White" Grid.Row="1" Click="Button_Click_1"/>
         <TextBox Margin="67,98,139,7" Grid.Row="1"/>
     </Grid>
     
