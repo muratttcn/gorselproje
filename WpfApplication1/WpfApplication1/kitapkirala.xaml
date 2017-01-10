@@ -52,9 +52,8 @@
             Teslim Tarihi
         </Label>
         <DatePicker Grid.Column="0" Grid.Row="4" Margin="99,1,0,1" HorizontalAlignment="Left" Width="169"/>
-        <Button Grid.Column="0" Grid.Row="4" Margin="212,29,0,1" Background="Beige" Grid.RowSpan="2">Kirala</Button>
-        <DataGrid Grid.Row="6" Width="auto"></DataGrid>
-        <DataGrid Grid.Row="7" Width="auto"></DataGrid>
+        <Button Grid.Column="0" Grid.Row="4" Margin="212,29,0,1" Background="Beige" Grid.RowSpan="2" Click="Button_Click_1">Kirala</Button>
+        <DataGrid Name="dg1" Grid.Row="6" Width="auto" Grid.RowSpan="2"></DataGrid>
         <RadioButton Grid.Row="8" Margin="0,0,214,10">Kitap Adı</RadioButton>
         <RadioButton Grid.Row="8" Margin="83,0,128,10">Kitap Türü</RadioButton>
         <RadioButton Grid.Row="8" Margin="164,0,47,10">Yayın Evi</RadioButton>
